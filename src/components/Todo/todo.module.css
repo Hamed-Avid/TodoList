@@ -1,0 +1,78 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30rem;
+  margin: 10px;
+  padding: 0.5rem 1rem 0.5rem 2rem;
+  border-radius: 1rem;
+  background: #f9f9f9;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #c3c0c0;
+}
+
+.tick {
+  color: greenyellow;
+}
+
+.times {
+  color: red;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  width: 70vw;
+}
+
+input:focus {
+  border: 2px solid blueviolet;
+}
+
+.formControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25rem;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6d28d9;
+  background-color: #fff;
+  border: 1px solid #6c28d967;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.actions {
+  display: flex;
+}
+
+.remove {
+  color: rgb(236, 68, 68);
+  border: 1px solid rgb(236, 68, 68);
+}
+
+.add {
+  color: #fff;
+  background-color: #6d28d9;
+}
+
+.edit {
+  color: #6d28d9;
+  background-color: #fff;
+}
